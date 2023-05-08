@@ -1,0 +1,90 @@
+body{
+    font-family: "Newsreader";
+    margin: auto;
+}
+
+nav.arancio ul {
+background-color: #FBBD5B;
+list-style: none;
+display: flex;
+padding: 20px;
+}
+
+nav.arancio a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+nav.arancio a.click:hover {
+    background-color: #D68404;
+}
+span{
+    display: block;
+    width: 55vw;
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 3%; ;
+}
+
+img.principale{
+    width: 60%;
+    height: 80%;
+    max-width: 100%;
+    Object-fit: cover;
+    margin: auto;
+    padding-left: 20%;
+}
+
+p{
+  font-size: 25px;  
+  padding-left: 20%;
+  padding-right: 20%;
+
+}
+
+
+div.img{
+    display: flex; 
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 15%;
+    gap: 5%;
+ 
+
+}
+
+div img{
+    width: 25vw;
+    height: 65vh;
+    padding-left: 5%;
+    max-width: 100%;
+    Object-fit: cover;
+
+}
+
+footer{
+    background-color:#FBBD5B ;
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: black;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+@media (max-width: 1000px) {
+
+    p {
+        font-size: 20px;
+    }
+
+    div img{
+        height: 45vw;
+    }    
+}
